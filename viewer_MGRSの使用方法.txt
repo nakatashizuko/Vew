@@ -1,0 +1,15 @@
+★Viewer＿MGRS
+	３６０度カメラで撮った画像をViewerで表示
+
+使用方法
+	set_exif.iniファイルにUTM_Zoonと平面直角座標の原点を入れる。
+	起動すると画像が表示される。（起動前にset_exif.pyを実行して、camout.txtとjpgファイルを作成してください）
+	
+	起動するとimgファイルのEXIF情報がセットされて画像が表示されます。
+
+フォルダ構成
+	Data
+	   camout.txt
+	   ply
+	img
+	   jpg
